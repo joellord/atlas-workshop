@@ -1,0 +1,9 @@
+[{
+  "_id": 1,
+  "name": "Joel Lord",
+  "image": "https://github.com/joellord.png",
+  "socials": [
+    {"network": "Twitter", "username": "joellord", "url": "https://twitter.com/url"},
+    {"network": "LinkedIn", "username": "joel-lord", "url": "https://www.linkedin.com/in/joel-lord/"}
+  ]
+}]

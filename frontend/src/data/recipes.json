@@ -1,0 +1,66 @@
+[{
+  "_id": 1,
+  "author": {
+    "name": "Joel Lord",
+    "_id": 1
+  },
+  "title": "Chicken & Veggie Stir-Fry",
+  "servings": 6,
+  "prepTime": 20,
+  "cookTime": 12,
+  "image": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/5/0/asset/377c068cc838/sub-buzz-1044-1646440773-10.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+  "ingredients": [
+    {"name": "Chicken breast", "qty": 1, "unit": "lbs"},
+    {"name": "Salt", "note": "to taste"},
+    {"name": "Pepper", "note": "to taste"},
+    {"name": "Broccoli Florets", "qty": 1, "unit": "lbs"},
+    {"name": "Mushrooms", "qty": 8, "unit": "oz"},
+    {"name": "Oil", "qty": 3, "unit": "tbsp", "note": "For frying"},
+    {"name": "Garlic", "qty": 3, "unit": "cloves"},
+    {"name": "Ginger", "qty": 1, "unit": "tsp", "note": "minced"},
+    {"name": "Sesame Oil", "qty": 2, "unit": "tsp"},
+    {"name": "Soy Sayce", "qty": 0.3, "unit": "cups"},
+    {"name": "Brown Sugar", "qty": 1, "unit": "tbsp"},
+    {"name": "Chicken Broth", "qty": 1, "unit": "cups"},
+    {"name": "Flour", "qty": 0.25, "unit": "cups"}
+  ],
+  "instructions": [
+    "In a large pan on medium-high heat, add 1 tablespoon of oil. Once the oil is hot, add chicken, season with salt and pepper, and sauté until cooked through and browned. Remove cooked chicken from pan and set aside.",
+    "In the same pan, heat 1 tablespoon of oil and add mushrooms. When the mushrooms start to soften, add broccoli florets and stir-fry until the broccoli is tender. Remove cooked mushrooms and broccoli from the pan and set aside.",
+    "Add 1 tablespoon of oil to the pan and sauté garlic and ginger until fragrant. Add the remaining sauce ingredients and stir until smooth.",
+    "Return the chicken and vegetables to the saucy pan, stir until heated through.",
+    "Serve with hot rice or noodles."
+  ]
+},{
+  "_id": 2,
+  "author": {
+    "name": "Joel Lord",
+    "_id": 1
+  },
+  "title": "Sheet Pan Sausage And Veggies",
+  "servings": 4,
+  "prepTime": 20,
+  "cookTime": 30,
+  "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-03/27/14/asset/buzzfeed-prod-web-02/sub-buzz-6302-1522174577-4.jpg?downsize=900:*&output-format=auto&output-quality=auto",
+  "ingredients": [
+    {"qty": 2, "unit": "cups", "name": "Baby Red Potato", "note": "Diced"},
+    {"qty": 3, "unit": "cups", "name": "Green Beans", "note": "Trimmed and halved"},
+    {"qty": 2, "unit": "cups", "name": "Broccoli Florets"},
+    {"qty": 1.5, "unit": "cups", "name": "Bell Peppers", "note": "Chopped"},
+    {"qty": 13, "unit": "oz", "name": "Smoked Sausage"},
+    {"qty": 6, "unit": "tbsp", "name": "Oil"},
+    {"qty": 0.25, "unit": "tsp", "name": "Red Pepper Flakes"},
+    {"qty": 1, "unit": "tsp", "name": "Paprika"},
+    {"qty": 0.5, "unit": "tsp", "name": "Garlic Powder"},
+    {"qty": 1, "unit": "tsp", "name": "Oregano"},
+    {"qty": 1, "unit": "tsp", "name": "Parsley"},
+    {"name": "Salt", "note": "to taste"},
+    {"name": "Pepper", "note": "to taste"}
+  ],
+  "instructions": [
+    "Preheat the oven to 400 degrees F. Line a very large sheet pan (I use this 15x21 inch sheet pan) or 2 smaller pans with parchment paper and set aside.",
+    "It is important to prep the veggies according to directions to ensure they all cook at the same rate. Wash and chop the unpeeled baby red potatoes. You want the pieces quite small. I halve the baby potatoes and then dice each half. This yields a total of 10-12 pieces per potato. Trim the green beans and then cut in half, chop the broccoli into florets, chop the peppers into 1-inch pieces, and coin the sausage in thick (1/2-inch) slices.",
+    "Place all the veggies and sausage on the prepared sheet pan. Pour the olive oil and all the seasonings on top. Season to taste with salt and pepper (I add 1/2 teaspoon of salt and 1/4 teaspoon pepper to start with). Use your hands to toss and evenly coat all the veggies and sausage with seasonings. Space everything out so it has plenty of space to cook. If veggies are crammed/overlapping they'll steam instead of roast and will take longer to cook.",
+    "Bake 15 minutes, remove from the oven and flip/stir all the veggies around. Return to the oven and bake for another 10-15 minutes or until vegetables are crisp-tender."
+  ]
+}]
