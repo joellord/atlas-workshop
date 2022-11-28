@@ -5,6 +5,8 @@ import { css } from "@leafygreen-ui/emotion";
 import RecipeCard from "../components/RecipeCard";
 import { getRecipes, searchRecipes } from "../utils/api";
 
+import recipes from "../data/recipes.json";
+
 const searchSection = css`
   margin-bottom: 10px;
   grid-column-template: repeat(12, 1fr);
@@ -21,18 +23,12 @@ const buttonStyle = css`
   vertical-align: bottom;
 `
 
-// import recipes from "../data/recipes.json";
-
 export default function Recipes () {
-  let [recipes, setRecipes] = useState([]);
+  // let [recipes, setRecipes] = useState([]);
   let [search, setSearch] = useState("");
   
   useEffect(() => {
-    const fetchRecipes = async () => {
-      let data = await getRecipes();
-      setRecipes(data);
-    };
-    fetchRecipes();
+    // Fetch data here.
   }, [])
 
   const handleSearch = async (e) => {
@@ -43,7 +39,7 @@ export default function Recipes () {
     } else {
       data = await searchRecipes(search);
     }
-    setRecipes(data);
+    // setRecipes(data);
   }
 
   return  (

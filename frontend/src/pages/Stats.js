@@ -7,19 +7,7 @@ export default function Home () {
   let [latestRecipe, setLatestRecipe] = useState("");
 
   useEffect(() => {
-    const app = new Realm.App({ id:  config.APP_ID});
-    const login = async () => {
-      await app.logIn(Realm.Credentials.anonymous());
-      
-      const mongodb = app.currentUser.mongoClient("mongodb-atlas");
-      const recipeCollection = mongodb.db("recipeBook").collection("recipes");
-      for await (const change of recipeCollection.watch()) {
-        if (change.operationType === "delete") return;
-        let fullDocument = change.fullDocument;
-        setLatestRecipe(fullDocument.title);
-      }
-    }
-    login();
+    // Show latest updates in real-time here
   }, []);
   
   return  (
